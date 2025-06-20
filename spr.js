@@ -2,7 +2,8 @@ let Userclick=document.querySelector(".dropdown");
  let print=document.querySelector(".bone");
  let msg=document.querySelector(".msg");
   let msgq=document.querySelector(".counter");
-    let msgg=document.querySelector(".countercomp");
+    let msgg=document.querySelector(".counter-c");
+    let reset=document.querySelector(".reset-btn")
   score=0;
   scorec=0
    Userclick.addEventListener("change",()=>{
@@ -63,6 +64,15 @@ let Userclick=document.querySelector(".dropdown");
       msgg.innerText=score;
 
    }});
+   reset.addEventListener("click",()=>{
+    msg.innerText="";
+    msgq.innerText="0";
+    msgg.innerText="0";
+
+   });
+ 
+
+   
  
 
    
