@@ -64,13 +64,14 @@ let Userclick=document.querySelector(".dropdown");
       msgg.innerText=scorec;
 
    }});
-   reset.addEventListener("click",()=>{
-    msg.innerText="";
-    msgq.innerText="0";
-    msgg.innerText="0";
-
-   });
- 
+   
+reset.addEventListener("click", () => {
+  msg.innerText = "";
+  msgq.innerText = "0";
+  msgg.innerText = "0";
+  score = 0;
+  scorec = 0;
+});
 
    
  
