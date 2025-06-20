@@ -31,7 +31,7 @@ let Userclick=document.querySelector(".dropdown");
     console.log("you lost!");
       msg.innerText="Lost!!!"
         scorec=scorec+1;
-      msgg.innerText=score;
+      msgg.innerText=scorec;
 
    }
     else if(val==="Paper" && computerChoice==="Rock"){
@@ -46,7 +46,7 @@ let Userclick=document.querySelector(".dropdown");
     console.log("you lost!");
       msg.innerText="Lostt!!!"
         scorec=scorec+1;
-      msgg.innerText=score;
+      msgg.innerText=scorec;
       
 
    }
@@ -61,7 +61,7 @@ let Userclick=document.querySelector(".dropdown");
     console.log("you lost!");
       msg.innerText="Losttt!!!"
         scorec=scorec+1;
-      msgg.innerText=score;
+      msgg.innerText=scorec;
 
    }});
    reset.addEventListener("click",()=>{
