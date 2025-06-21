@@ -31,4 +31,8 @@ https://hridaan1231.github.io/Rock-Paper-Scissor/
 
 ## 📂 Folder Structure
 
+tic-tac-toe/
+├── index.html
+├── spr.css
+└── spr.js
 
